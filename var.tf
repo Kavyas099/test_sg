@@ -2,18 +2,18 @@
 
 variable "common_tags" {
   default = {
-    project = "expense"
-    environment = "dev"
+    project = "divya"
+    environment = "qa"
     terraform = "true"
   }
 }
 
 variable "project_name" {
-  default = "expense"
+  default = "roboshop"
 }
 
 variable "environment" {
-  default = "dev"
+  default = "qa"
 }
 
 variable "sg_description" {
